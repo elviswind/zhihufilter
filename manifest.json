@@ -12,5 +12,5 @@
   "browser_action": {
     "default_title": "知乎过滤器"
   },
-  "manifest_version": 1
+  "manifest_version": 2
 }
