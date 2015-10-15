@@ -1,0 +1,16 @@
+{
+  "name": "知乎过滤器",
+  "description": "过滤知乎搜索结果，删掉没人回答和赞成数少于30的答案",
+  "version": "1.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "知乎过滤器"
+  },
+  "manifest_version": 1
+}
