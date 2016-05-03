@@ -1,5 +1,5 @@
 function filter() {
-    var x = document.querySelectorAll('.questions .item');
+    var x = document.querySelectorAll('.contents .item');
     for (var i = 0; i < x.length; i++) {
         var y = x[i].querySelector('.zm-item-vote-count');
         if (y) {
